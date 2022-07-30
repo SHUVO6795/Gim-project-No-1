@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgb(217, 205, 205);
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(img/1st.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.all ul{
+    list-style: none;
+    margin-left: 3%;
+    padding-top: 2.5%;
+}
+.all ul li{
+    float: left;
+    padding: 1% 1%;
+}
+.all ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.all ul li::after{
+    content:'' ;
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+.all ul li:hover::after{
+    width: 100%;
+}
+
+.login ul{
+    list-style: none;
+    margin-right: 3%;
+}
+.login ul li{
+    float: right;
+    padding: 1% 1%;
+}
+.login ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.login ul li::after{
+    content:'' ;
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    -ms-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+.login ul li:hover::after{
+    width: 100%;
+}
+.tytle{
+    text-align: center;
+    color:#fff;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: xx-large;
+}
+
+.tytle span{
+    color: rgb(223, 96, 6);
+}
+
+.content_wrap{
+    min-height: 100vh;
+    padding: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    /* margin-top: 100px; */
+}
+.content{
+    width: 420px;
+    float: left;
+    margin-top: 17%;
+    padding-left: 20%;
+    margin-right: 40px;
+    text-align: justify;
+}
+.content p{
+    font-weight: 300;
+}
+.content span{
+    color: rgb(223, 96, 6);
+}
+.sidebar img{
+    width: 490px;
+    float: left;
+    margin-top: 6.5%;
+}
+.full_wrapper{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(217, 205, 205);
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+    min-height: 100vh;
+    margin-top: 50px;
+    background: rgb(217, 205, 205);
+}
+.heading{
+    margin-left: 2%;
+}
+.heading h1{
+    padding-top: 4%;
+}
+.heading p{
+    font-weight: 300;
+}
+.heading span{
+    color: rgb(223, 96, 6);
+}
+.image{
+    float: left;
+    width: 30%;
+    margin-left: 2%;
+    position: relative;
+}
+
+.image #pic{
+    width: 100%;
+}
+.image h3{
+    margin-top: 10px;
+}
+.image p{
+    font-weight: 300;
+}
+.image a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(238, 115, 7);
+    padding: 5px;
+    border-radius: 5px;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+}
+.image a:hover{
+    background: black;
+    color: #fff;
+}
+
+.slid{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(img/4.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.slid p{
+    text-align: center;
+    /* font-weight:bolder; */
+    letter-spacing: 10px;
+    margin: 0 auto;
+    padding-top: 23%;
+    color: aliceblue;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.slid h1{
+    text-align: center;
+    letter-spacing: 5px;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 45%;
+    color: aliceblue;
+    background: rgb(238, 115, 7);
+    padding: 5px;
+    border-radius: 5px;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.hero-btn:hover{
+    background: black;
+    color: #fff;
+}
+
+
+.pager{
+    width: 960px;
+    margin: 0 auto;
+    min-height: 100vh;
+    /* margin-top: 50px; */
+    background: #fff;
+}
+.head-line{
+    margin-left: 2%;
+}
+.head-line h1{
+    padding-top: 2%;
+}
+.head-line p{
+    font-weight: 300;
+}
+.head-line span{
+    color: rgb(223, 96, 6);
+}
+
+.image .two{
+    margin-top: 10px;
+}
+
+.image .three{
+    margin-top: 35px;
+}
+
+.sm{
+    margin-left: 30%;
+}
+
+.jd{
+    margin-left: 30%;
+}
+
+.mb{
+    margin-left: 30%;
+}
+
+.pera{
+    margin-left: 20px;
+}
+
+.tag{
+    margin-left: 27%;
+}
+
+.last-part{
+    width: 100%;
+    min-height:70vh;
+    margin-top: 20px;
+}
+
+.one-slid{
+    float: left;
+    width: 50%;
+}
+
+.one-slid #pic{
+    width: 100%;
+}
+
+.first-one{
+    height:430px;
+}
+
+.se-one{
+    height:430px;
+}
+
+.last-part p{
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-top: -270px;
+    margin-left: 230px;
+    color: aliceblue;
+}
+
+.last-part .fst{
+    font-size: 40px;
+    margin-left: 140px;
+    letter-spacing: 5px;
+    color: aliceblue;
+}
+
+.last-part .end{
+    font-size: 40px;
+    margin-left: 180px;
+    letter-spacing: 5px;
+    color: aliceblue;
+}
+
+.get{
+    margin-left: 270px;
+    text-decoration: none;
+    background: rgb(223, 96, 6);
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.get:hover{
+    background: #000;
+    color: #fff;
+}
+
+.gets{
+    margin-left: 290px;
+    text-decoration: none;
+    background: rgb(223, 96, 6);
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.gets:hover{
+    background: #000;
+    color: #fff;
+}
+
+.line{
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.line h1{
+    color: rgb(223, 96, 6);
+    letter-spacing: 5px;
+}
+
+.line p{
+    text-align: justify;
+}
+
+.footer p{
+    background-color: rgb(74, 69, 69);
+    color: #fff;
+    text-align: center;
+}
